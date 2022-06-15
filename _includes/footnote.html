@@ -1,0 +1,4 @@
+{%- unless ref >= 1 -%}
+  {% assign ref = 1 %}
+{%- endunless -%}
+<sup><a class="text-decoration-none{% if include.link_class %} {{ include.link_class }}{% endif %}" id="fnref{{ ref }}" href="#fn{{ ref }}">{{ ref }}</a></sup>{% assign ref = ref | plus: 1 %}

@@ -13,12 +13,37 @@
             <div class="search-noresults">
                 <section class="normal markdown-section">
                     {% if page.title %}
-                        <h1 id="{{ page.id }}">{{ page.title | escape }}</h1>
+                        <h1 id="{{ page.id }}">
+                          {{ page.title | escape }}
+                          {% if page.title == 'Brain Worms' %}
+                            <span style="display: block; font-size: 1rem; line-height: 1.2rem;">How Right-Wing Propaganda Destroys Reason, Conscience, and Democracy</span>
+                          {% endif %}
+                        </h1>
                     {% else %}
                         <h1 id="{{ page.id }}">{{ site.title | escape }}</h1>
                     {% endif %}
 
                     {{ content }}
+
+                    {% if page.footnotes %}
+                      <section id="footnotes">
+                        <div class="container">
+                          <h2 class="supertitle mb-3 dotted-line-left mb-n4 mt-n4 pb-4 pt-4 ms-n3 ps-3 z-index-1000">Footnotes</h2>
+                        </div>
+                        <div class="py-6 mt-3 roses-background--light">
+                          <div class="container">
+                            <ol class="list-unstyled mb-0 small lh-sm">
+                              <!-- Include counter with each for loop -->
+                              {% assign ref = 1 %}
+                              {% for footnote in page.footnotes %}
+                                <li id="fn{{ ref }}" class="mb-0"><span class="d-block pb-3">{{ footnote }} <a class="text-decoration-none" href="#fnref{{ ref }}"><strong>^</strong></a></span></li>
+                                {% assign ref = ref | plus: 1 %}
+                              {% endfor %}
+                            </ol>
+                          </div>
+                        </div>
+                      </section>
+                    {% endif %}
                 </section>
             </div>
 

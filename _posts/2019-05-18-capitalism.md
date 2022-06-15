@@ -19,7 +19,7 @@ footnotes:
   - "Ibid."
   - "Mark Weisbrot, <em>Failed: What the “Experts” Got Wrong About the Global Economy</em> (Oxford: Oxford University Press, 2015), 58-59."
   - "Ibid., 168-169."
-  - "See note 15 from “<a href='/conservatism#fn15'>Conservatism</a>”"
+  - "See note 15 from “<a href='/conservatism.html#fn15'>Conservatism</a>”"
   - "Hickel, <em>The Divide</em>, 14-15."
   - "Ibid., 50."
   - "David Bacon, <em>The Right to Stay Home: How US Policy Drives Mexican Migration</em> (Boston: Beacon Press, 2013)."
