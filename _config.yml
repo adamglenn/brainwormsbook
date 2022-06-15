@@ -9,8 +9,8 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://adamglenn.github.io/brainwormsbook/'
-baseurl:          '/brainwormsbook'
+url:              'https://brainwormsbook.com'
+baseurl:          ''
 rss:              RSS
 
 toc:
