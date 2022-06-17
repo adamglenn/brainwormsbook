@@ -91,7 +91,7 @@ Furthermore, while some problems have occurred under capitalism, it isn’t the 
 
 The Right also points to technological innovation as a reason to support capitalism and forego left-wing economic reforms. We’re told that capitalism is solely responsible for most of the technological innovation that allows us to enjoy high living standards today. ... If we want living standards to continue to rise, we shouldn’t adopt left-wing policies, because that would waste wealth capitalists could otherwise use to invest in new technology.
 
-A ruse. ... The Right is trying to trick society into making a false choice—between “capitalism,” by which they mean a particular form of capitalism that overwhelmingly benefits the rich, and any other economic arrangement the Right doesn’t like.
+A ruse. ... The Right is trying to trick society into making a false choice—between “capitalism,” by which they mean a particular form of capitalism that overwhelmingly benefits the rich, and any other economic arrangement that fails to serve these ends.
 
 Take “free trade.” No country has ever joined the ranks of the developed world by following the advice of ... policies—including the US, which only pushed for free trade once it became advantageous for them to do so. Countries develop faster, wealth is more widely shared, and the poor fare much better when nations are free to develop independently, often by adopting policies that run counter to free trade. Indeed, free trade is a misnomer, since free trade policies are imposed on domestic populations by foreign lending institutions and corrupt local elites who repress their citizens, often with military aid from the US.
 
