@@ -1723,14 +1723,14 @@
     - "for-beginners"
     - "all-time-favorites"
     - "globalization"
--
-  title: "Less is More: How Degrowth Will Save the World"
-  shortname: "Less is More"
-  description: "The world has finally awoken to the reality of climate breakdown and ecological collapse. Now we must face up to its primary cause. Capitalism demands perpetual expansion, which is devastating the living world. There is only one solution that will lead to meaningful and immediate change: DEGROWTH."
-  author: "Jason Hickel"
-  filename: "hickel-less-is-more"
-  category:
-    - "policy-solutions"
+# -
+#   title: "Less is More: How Degrowth Will Save the World"
+#   shortname: "Less is More"
+#   description: "The world has finally awoken to the reality of climate breakdown and ecological collapse. Now we must face up to its primary cause. Capitalism demands perpetual expansion, which is devastating the living world. There is only one solution that will lead to meaningful and immediate change: DEGROWTH."
+#   author: "Jason Hickel"
+#   filename: "hickel-less-is-more"
+#   category:
+#     - "policy-solutions"
 -
   title: "From the War on Poverty to the War on Crime: The Making of Mass Incarceration in America"
   shortname: "From the War on Poverty to the War on Crime"
