@@ -8,7 +8,7 @@ footnotes:
   - "Richard Morris, <em>The Forging of the Union 1781–1789</em> (New York: Harper & Row, 1987), 31-54, 148-152, 158-159."
   - "Michael Klarman, <em>The Framers’ Coup: The Making of the United States Constitution</em> (New York: Oxford University Press, 2016), 130, 133."
   - "Ibid., 371-372."
-  - "Jennifer Nedelsky, <em>Private Property and the Limits of American Constitutionalism: The Madisonian Framework and Its Legacy</em> (Chicago: University of Chicago Press, 1990), 23-23."
+  - "Jennifer Nedelsky, <em>Private Property and the Limits of American Constitutionalism: The Madisonian Framework and Its Legacy</em> (Chicago: University of Chicago Press, 1990), 23."
   - "Noam Chomsky, <em>Profit Over People: Neoliberalism and Global Order</em> (New York: Seven Stories Press, 1999), 46."
   - "Klarman, <em>The Framers’ Coup</em>, 210."
   - "Chomsky, <em>Profit Over People</em>, 51-52."
