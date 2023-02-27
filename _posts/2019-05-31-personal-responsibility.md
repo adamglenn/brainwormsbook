@@ -36,7 +36,7 @@ footnotes:
   - "Elizabeth Hinton, <em>From the War on Poverty to the War on Crime: The Making of Mass Incarceration in America</em> (Cambridge: Harvard University Press, 2016)."
   - "Taylor, <em>From #blacklivesmatter to Black Liberation</em>, 93-94; Kim Phillips-Fein, <em>Fear City: New York’s Fiscal Crisis and the Rise of Austerity Politics</em> (New York: Metropolitan Books, 2017), 206-207; Flynn, Holmberg, and Wong, <em>The Hidden Rules of Race</em>, 91."
   - "Rank, Eppard, and Bullock, <em>Poorly Understood</em>, 102-104."
-  - "See note 15 from “<a href='/conservatism.html#fn15'>Conservatism</a>”"
+  - "See note 14 from “<a href='/conservatism.html#fn14'>Conservatism</a>”"
   - "Michelle Alexander, <em>The New Jim Crow: Mass Incerceration in the Age of Colorblindness</em> (New York: The New Press, 2020), 148-151."
   - "Ibid., 90-91."
   - "Berman, <em>Give Us the Ballot</em>, 209-210, 220-221, 260, 262-263."

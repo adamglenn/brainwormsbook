@@ -23,7 +23,7 @@ footnotes:
   - "Berman, <em>Give Us the Ballot</em>, 273-314."
   - "Richardson, <em>To Make Men Free</em>, 98-138, 171-192."
   - "Schickler, <em>Racial Realignment</em>, 133."
-  - "See note 15 from “<a href='/conservatism.html#fn15'>Conservatism</a>”"
+  - "See note 14 from “<a href='/conservatism.html#fn14'>Conservatism</a>”"
   - "Schickler, <em>Racial Realignment</em>, 55-80."
   - "Ibid., 105-118."
   - "Ibid., 224-236."
@@ -83,7 +83,7 @@ footnotes:
   - "Thomas Jackson, <em>From Civil Rights to Human Rights: Martin Luther King, Jr., and the Struggle for Economic Justice</em> (Philadelphia: University of Pennsylvania Press, 2008), 42."
   - "Ibid., 230."
   - "Cohen, <em>Supreme Inequality</em>, 91-107."
-  - "See note 15 from “<a href='/conservatism.html#fn15'>Conservatism</a>”"
+  - "See note 14 from “<a href='/conservatism.html#fn14'>Conservatism</a>”"
   - "Berman, <em>Give Us the Ballot</em>, 209-210, 220-221, 260, 262-263."
 ---
 
