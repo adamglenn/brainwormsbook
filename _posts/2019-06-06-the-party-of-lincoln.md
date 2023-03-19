@@ -2,7 +2,7 @@
 title: The Party of Lincoln
 author: Tao He
 date: 2019-06-06
-category: The Party of Lincoln
+category: the-party-of-lincoln
 layout: post
 footnotes:
   - "Foner, <em>Reconstruction</em>, 575-582."

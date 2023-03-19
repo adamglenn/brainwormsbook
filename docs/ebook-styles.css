@@ -1,0 +1,6 @@
+section {
+    page-break-before: always;
+}
+h1 + p, h2 + p, ol + p {
+    text-indent: 0px;
+}

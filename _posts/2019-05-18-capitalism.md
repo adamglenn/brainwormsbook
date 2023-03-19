@@ -31,7 +31,7 @@ footnotes:
   - "Tim Pat Coogan, <em>The Famine Plot: England’s Role in Ireland’s Greatest Tragedy</em> (New York: Palgrave Macmillan, 2012)."
   - "Mike Davis, <em>Late Victorian Holocausts: El Niño Famines and the Making of the Third World</em> (New York: Verso, 2001)."
   - "Adam Hochschild, <em>King Leopold’s Ghost: A Story of Greed, Terror, and Heroism in Colonial Africa</em> (Boston: Houghton Mifflin Company, 1999)."
-  - "Jean Drèze and Amartya Sen, Hunger and Public Action</em> (Oxford: Clarendon Press, 1989), 204-225."
+  - "Jean Drèze and Amartya Sen, <em>Hunger and Public Action</em> (Oxford: Clarendon Press, 1989), 204-225."
   - "Matt Bruenig, “Bidencare System Will Kill 125,000 Through Uninsurance,” <a href='https://www.peoplespolicyproject.org/'>People’s Policy Project</a>. July 15, 2019,  <a href='https://www.peoplespolicyproject.org/2019/07/15/bidencare-system-will-kill-125000-through-uninsurance/'>https://www.peoplespolicyproject.org/2019/07/15/bidencare-system-will-kill-125000-through-uninsurance/</a>."
   - "Tirman, <em>The Deaths of Others</em>, 92, 168."
   - "Brett Morris, “Agent Orange and unexploded bombs: America’s ‘human rights’ record in Vietnam,” <a href='https://www.vox.com/'>Vox</a>. June 2, 2016, <a href='https://www.vox.com/2016/6/2/11819304/vietnam-american-bombs'>https://www.vox.com/2016/6/2/11819304/vietnam-american-bombs</a>."

@@ -56,7 +56,7 @@ footnotes:
   - "Ibid., 1-40."
   - "Cohen, <em>Supreme Inequality</em>."
   - "Mark Levin, “The Modern Democrats’ Rejection Of Private Property Rights,” <a href='https://YouTube.com'>YouTube</a>. August 1, 2012, 9:01, <a href='https://www.youtube.com/watch?v=aC-qRkQzYkiU'>https://www.youtube.com/watch?v=aC-qRkQzYkiU</a>."
-  - "Matt Bruenig, “Top 1% Up $21 Trillion. Bottom 50% Down $900 Billion.” <a href='PeoplesPolicyProject.org'>People’s Policy Project</a>. Jun. 14, 2019, <a href='https://www.peoplespolicyproject.org/2019/06/14/top-1-up-21-trillion-bottom-50-down-900-billion/''>https://www.peoplespolicyproject.org/2019/06/14/top-1-up-21-trillion-bottom-50-down-900-billion/</a>."
+  - "Matt Bruenig, “Top 1% Up $21 Trillion. Bottom 50% Down $900 Billion.” <a href='https://www.peoplespolicyproject.org'>People’s Policy Project</a>. Jun. 14, 2019, <a href='https://www.peoplespolicyproject.org/2019/06/14/top-1-up-21-trillion-bottom-50-down-900-billion/'>https://www.peoplespolicyproject.org/2019/06/14/top-1-up-21-trillion-bottom-50-down-900-billion/</a>."
   - "See note 14 from “<a href='/conservatism.html#fn14'>Conservatism</a>”"
   - "Mark Levin, <em>Ameritopia: The Unmaking of America</em> (New York: Threshold Editions, 2012), 9."
   - "Thomas Piketty, <em>Capital in the Twenty-First Century</em> (Cambridge: The Bellknap Press, 2014), 512."

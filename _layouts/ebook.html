@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+        <title>{{ site.title | escape }}</title>
+
+        <meta name="description" content="{{site.description}}">
+
+        <meta name="author" content="{{ site.author | escape }}">
+
+        <link rel="stylesheet" href="ebook-styles.css">
+
+    </head>
+    <body>
+
+        <h1 class="chapter-title" id="chapter-1">Brain Worms: How Right-Wing Propaganda Destroys Reason, Conscience, and Democracy</h1>
+        <p>Adam Glenn</p>
+
+        <h1 class="chapter-title" id="chapter-2">Copyright</h1>
+        <p>Brain Worms: How Right-Wing Propaganda Destroys Reason, Conscience, and Democracy<br>Copyright © 2021 by Adam Glenn. All rights reserved.<br>Published by Adam Glenn / A.G. Press<br>ISBN 978-1-716-03968-3</p>
+
+        <h1 class="chapter-title" id="chapter-3">Contents</h1>
+        <p><a href='brain-worms_split_003.html'>Introduction</a></p>
+        <ol>
+            <li><a href='brain-worms_split_004.html'>Conservatism</a></li>
+            <li><a href='brain-worms_split_005.html'>Classical Liberalism</a></li>
+            <li><a href='brain-worms_split_006.html'>Constitutionalism</a></li>
+            <li><a href='brain-worms_split_007.html'>Capitalism</a></li>
+            <li><a href='brain-worms_split_008.html'>Economics 101</a></li>
+            <li><a href='brain-worms_split_009.html'>Personal Responsibility</a></li>
+            <li><a href='brain-worms_split_010.html'>The Party of Lincoln</a></li>
+            <li><a href='brain-worms_split_011.html'>The PC Thought Police</a></li>
+        </ol>
+        <p><a href='brain-worms_split_012.html'>Notes</a></p>
+
+        {% assign pageArray = 'introduction,conservatism,classical-liberalism,constitutionalism,capitalism,economics-101,personal-responsibility,the-party-of-lincoln,the-pc-thought-police' | split: ',' %}
+
+        {% assign i = 0 %}
+        {% assign chapter = 4 %}
+
+        {% for page in pageArray %}
+            {% for post in site.posts %}
+                {% if post.category == pageArray[i] %}
+                    <h1 class="chapter-title" id="chapter-{{ chapter }}">{{ post.title }}</h1>
+                    {% capture footnoteID %}fn{{ post.category }}-chapter{% endcapture %}
+                    {% capture footnoteRef %}brain-worms_split_012.html#fn{{ post.category }}{% endcapture %}
+                    {{ post.content | replace: 'fnref', footnoteID | replace: '#fn', footnoteRef }}
+                    {% assign chapter = chapter | plus: 1 %}
+                {% endif %}
+            {% endfor %}
+            {% assign i = i | plus: 1 %}
+        {% endfor %}
+
+        {% assign i = 1 %}
+        {% assign f = 4 %}
+
+        <h1 class="chapter-title" id="chapter-13">Notes</h1>
+        {% for page in pageArray %}
+            {% for post in site.posts %}
+                {% if post.category == pageArray[i] %}
+                    {% assign j = 1 %}
+                    {%- if f < 10 %}
+                        {% capture fn %}00{{ f }}{% endcapture %}
+                    {% else %}
+                        {% capture fn %}0{{ f }}{% endcapture %}
+                    {% endif %}
+                    <h2>{{ post.category | replace: '-', ' ' | upcase }}</h2>
+                    <ol>
+                        {% for footnote in post.footnotes %}
+                            <li id="fn{{ post.category }}{{ j }}">{{ footnote | replace: '/conservatism.html#fn14', 'brain-worms_split_012.html#fnconservatism14' }} <a href="brain-worms_split_{{ fn }}.html#fn{{ post.category }}-chapter{{ j }}">^</a></li>
+                            {% assign j = j | plus: 1 %}
+                        {% endfor %}
+                    </ol>
+                    {% assign f = f | plus: 1 %}
+                {% endif %}
+            {% endfor %}
+            {% assign i = i | plus: 1 %}
+        {% endfor %}
+    </body>
+</html>
