@@ -1,28 +1,22 @@
-<!DOCTYPE HTML>
-<html lang="en" >
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
-        <title>{{ site.title | escape }}</title>
-
-        <meta name="description" content="{{site.description}}">
-
-        <meta name="author" content="{{ site.author | escape }}">
-
-        <link rel="stylesheet" href="ebook-styles.css">
-
+        <title>Brain Worms v1.0.0</title>
+        <style>
+            .noindent { text-indent: 0px !important; }
+            .chapternumber { display: block; padding-top: 5em; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; }
+        </style>
     </head>
-    <body>
+    <body class="book-body">
 
         <h1 class="chapter-title" id="chapter-1">Brain Worms: How Right-Wing Propaganda Destroys Reason, Conscience, and Democracy</h1>
-        <p>Adam Glenn</p>
+        <noindent class="noindent">Adam Glenn</noindent>
 
         <h1 class="chapter-title" id="chapter-2">Copyright</h1>
-        <p>Brain Worms: How Right-Wing Propaganda Destroys Reason, Conscience, and Democracy<br>Copyright © 2021 by Adam Glenn. All rights reserved.<br>Published by Adam Glenn / A.G. Press<br>ISBN 978-1-716-03968-3</p>
+        <noindent class="noindent">Brain Worms: How Right-Wing Propaganda Destroys Reason, Conscience, and Democracy<br>Copyright © 2021 by Adam Glenn. All rights reserved.<br>Published by Adam Glenn / A.G. Press<br>ISBN 978-1-716-03968-3</noindent>
 
         <h1 class="chapter-title" id="chapter-3">Contents</h1>
-        <p><a href='brain-worms_split_003.html'>Introduction</a></p>
+        <noindent class="noindent"><a href='brain-worms_split_003.html'>Introduction</a></noindent>
         <ol>
             <li><a href='brain-worms_split_004.html'>Conservatism</a></li>
             <li><a href='brain-worms_split_005.html'>Classical Liberalism</a></li>
@@ -33,21 +27,51 @@
             <li><a href='brain-worms_split_010.html'>The Party of Lincoln</a></li>
             <li><a href='brain-worms_split_011.html'>The PC Thought Police</a></li>
         </ol>
-        <p><a href='brain-worms_split_012.html'>Notes</a></p>
+        <noindent class="noindent"><a href='brain-worms_split_012.html'>Notes</a></noindent>
 
         {% assign pageArray = 'introduction,conservatism,classical-liberalism,constitutionalism,capitalism,economics-101,personal-responsibility,the-party-of-lincoln,the-pc-thought-police' | split: ',' %}
 
         {% assign i = 0 %}
         {% assign chapter = 4 %}
+        {% assign chapterNumber = 0 %}
 
         {% for page in pageArray %}
             {% for post in site.posts %}
                 {% if post.category == pageArray[i] %}
-                    <h1 class="chapter-title" id="chapter-{{ chapter }}">{{ post.title }}</h1>
+                    
+                    <h1 class="chapter-title" id="chapter-{{ chapter }}">
+                        {% if chapterNumber >= 1 and chapterNumber <= 8 %}
+                            <chapternumber class="chapternumber">Chapter {{ chapterNumber }}</chapternumber>
+                        {% endif %}
+                        {{ post.title }}
+                    </h1>
+                    
                     {% capture footnoteID %}fn{{ post.category }}-chapter{% endcapture %}
+                    
                     {% capture footnoteRef %}brain-worms_split_012.html#fn{{ post.category }}{% endcapture %}
-                    {{ post.content | replace: 'fnref', footnoteID | replace: '#fn', footnoteRef }}
+                    
+                    {%- capture postContent -%}
+                        {{ post.content | replace: 'fnref', footnoteID | replace: '#fn', footnoteRef | replace_first: '<p>', '<noindent class="noindent">' | replace_first: '</p>', '</noindent>' | strip_newlines }}
+                    {%- endcapture -%}
+
+                    {% assign postArray = postContent | split: '</h2><p>' %}
+
+                    {% assign postLength = postArray.size | minus: 1 %}
+
+                    {% for j in (0..postLength) %}
+                        {%- if j > 0 -%}
+                            {{ postArray[j] | replace_first: '</p>', '</noindent>' }}
+                        {%- else -%}
+                            {{ postArray[j] }}
+                        {%- endif -%}
+                        {%- if j < postLength -%}
+                            </h2><noindent class="noindent">
+                        {%- endif -%}
+                    {% endfor %}
+                    
                     {% assign chapter = chapter | plus: 1 %}
+                    {% assign chapterNumber = chapterNumber | plus: 1 %}
+                
                 {% endif %}
             {% endfor %}
             {% assign i = i | plus: 1 %}
