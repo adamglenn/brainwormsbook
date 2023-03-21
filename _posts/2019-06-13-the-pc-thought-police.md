@@ -11,7 +11,7 @@ footnotes:
   - "Ibid., 3-14."
   - "Ibid., 26-28."
   - "David Barsamian, “The Common Good: An Interview With Noam Chomsky,” <a href='https://www.thesunmagazine.org/'>The Sun</a>. November, 1997, <a href='https://www.thesunmagazine.org/issues/263/the-common-good'>https://www.thesunmagazine.org/issues/263/the-common-good</a>."
-  - "Moskowitz, <em>The Case Against Free Speech: The First Amendment, Fascsism, and the Future of Dissent</em> (New York: Bold Type Books, 2019), 180-181."
+  - "P.E. Moskowitz, <em>The Case Against Free Speech: The First Amendment, Fascsism, and the Future of Dissent</em> (New York: Bold Type Books, 2019), 180-181."
   - "Ibid., 154-156."
   - "Ibid., 115."
   - "Ibid., 135-141."
