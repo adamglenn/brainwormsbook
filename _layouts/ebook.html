@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head>
         <title>Brain Worms v1.0.0</title>
+        <meta name="author" content="Adam Glenn"/>
         <style>
             .noindent { text-indent: 0px !important; }
             .chapternumber { display: block; padding-top: 5em; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; }
@@ -16,7 +17,7 @@
         <noindent class="noindent">Brain Worms: How Right-Wing Propaganda Destroys Reason, Conscience, and Democracy<br>Copyright © 2021 by Adam Glenn. All rights reserved.<br>Published by Adam Glenn / A.G. Press<br>ISBN 978-1-716-03968-3</noindent>
 
         <h1 class="chapter-title" id="chapter-3">Contents</h1>
-        <noindent class="noindent"><a href='brain-worms_split_003.html'>Introduction</a></noindent>
+        <p class="noindent"><a href='brain-worms_split_003.html'>Introduction</a></p>
         <ol>
             <li><a href='brain-worms_split_004.html'>Conservatism</a></li>
             <li><a href='brain-worms_split_005.html'>Classical Liberalism</a></li>
@@ -51,7 +52,7 @@
                     {% capture footnoteRef %}brain-worms_split_012.html#fn{{ post.category }}{% endcapture %}
                     
                     {%- capture postContent -%}
-                        {{ post.content | replace: 'fnref', footnoteID | replace: '#fn', footnoteRef | replace_first: '<p>', '<noindent class="noindent">' | replace_first: '</p>', '</noindent>' | strip_newlines }}
+                        {{ post.content | replace: 'fnref', footnoteID | replace: '#fn', footnoteRef | replace_first: '<p>', '<noindent class="noindent">' | replace_first: '</p>', '</noindent>' | replace: '<a ', '<a epub:type="noteref" ' | strip_newlines }}
                     {%- endcapture -%}
 
                     {% assign postArray = postContent | split: '</h2><p>' %}
@@ -93,7 +94,12 @@
                     <h2>{{ post.category | replace: '-', ' ' | upcase }}</h2>
                     <ol>
                         {% for footnote in post.footnotes %}
-                            <li id="fn{{ post.category }}{{ j }}">{{ footnote | replace: '/conservatism.html#fn14', 'brain-worms_split_012.html#fnconservatism14' }} <a href="brain-worms_split_{{ fn }}.html#fn{{ post.category }}-chapter{{ j }}">^</a></li>
+                            <li>
+                                <aside epub:type="footnote" id="fn{{ post.category }}{{ j }}">
+                                    {% capture cleanFootnote %}{{ footnote | replace: '<em>', '__em__' | replace: '</em>', '__/em__' | strip_html }}{% endcapture %}
+                                    {{ cleanFootnote | replace: '__em__', '<em>' | replace: '__/em__', '</em>' }} <a href="brain-worms_split_{{ fn }}.html#fn{{ post.category }}-chapter{{ j }}">^</a>
+                                </aside>
+                            </li>
                             {% assign j = j | plus: 1 %}
                         {% endfor %}
                     </ol>
