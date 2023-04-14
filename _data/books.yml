@@ -1083,14 +1083,14 @@
 #     - "white-supremacy"
 #     - "us-history"
 #     - "racial-inequality"
--
-  title: "John Rawls: Reticent Socialist"
-  author: "William Edmundson"
-  shortname: "John Rawls: Reticent Socialist"
-  description: ""
-  filename: "edmundson-john-rawls-reticent-socialist"
-  category:
-    - "political-philosophy"
+# -
+#   title: "John Rawls: Reticent Socialist"
+#   author: "William Edmundson"
+#   shortname: "John Rawls: Reticent Socialist"
+#   description: ""
+#   filename: "edmundson-john-rawls-reticent-socialist"
+#   category:
+#     - "political-philosophy"
 -
   title: "American Taxation, American Slavery"
   author: "Robin Einhorn"
