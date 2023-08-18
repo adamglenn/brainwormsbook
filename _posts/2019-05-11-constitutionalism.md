@@ -61,7 +61,7 @@ Nor should the “original intent” of the Constitution limit majorities from e
 
 Furthermore, policies that involve cutting taxes, regulations, and social programs have nothing to do with preserving republican government. These policies concentrate economic and political power into the hands of a plutocracy, which is antithetical to the ideals of republicanism. The right only favors these types of reforms because the right represents the interests of America’s plutocracy.
 
-Nor does limiting the power of democratic majorities have anything to do with preventing the government from violating individual rights. Democracies can—and have—aimed to preserve institutional safeguards that protect individual rights. Proponents of democracy want to extend the same rights to _everyone_, and believe these rights are undermined by the right’s “small government” policies, which place economic and political power in the hands of a wealthy minority. When the Right claims to favor “minority rights,” it’s only the rights of this minority the right aims to protect.
+Nor does limiting the power of democratic majorities have anything to do with preventing the government from violating individual rights. Democracies can—and have—aimed to preserve institutional safeguards that protect individual rights. Proponents of democracy want to extend the same rights to _everyone_, and believe these rights are undermined by the right’s “small government” policies, which place economic and political power in the hands of a wealthy minority. When the right claims to favor “minority rights,” it’s only the rights of this minority the right aims to protect.
 
 Small Government
 -------------
