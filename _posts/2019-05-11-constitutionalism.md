@@ -51,7 +51,7 @@ In order to limit these forms of government tyranny, according to the right, we 
 
 While the public may support social welfare programs, this is no reason to violate the Constitution, according to the right. The Framers wished to create _a republic_, not democracy. They feared tyrannical majorities might use the government to violate the rights of minorities, which the right claims is exactly the situation we find ourselves in today. The right agrees with the Framers, and therefore claims we should cut taxes, regulations, and social programs in order to limit the federal government’s power, and resist reforms that make our political system more democratic.
 
-Cutting taxes and social programs, however, or limiting democracy for its own sake, has little to do with the limits established by the Constitution.
+Cutting taxes and social programs, however, or limiting democracy, has little to do with the limits established by the Constitution.
 
 The Framers didn’t intend to create small government. They created the Constitution because they viewed the prior confederation of states as far too weak, and thought the confederation was doomed to collapse. The Framers wished to drastically expand federal authority and create new powers in order to foster commerce and develop the US economy, which they hoped would help the US become a world power. As we’ll see, this required placing limits on the power of the _individual states_, not the other way around. Unsurprisingly, opponents of ratification didn’t view such powers as “limited.” While the Framers did aim to reduce the possibility that democratic majorities might exercise the powers established by the Constitution, to say that the powers themselves are “small” is simply untrue.
 
