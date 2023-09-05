@@ -26,7 +26,7 @@ footnotes:
   - "Horowitz, “Ten Reasons Why Reparations for Blacks is a Bad Idea for Blacks—and Racist Too.”"
   - "Joseph Crespino, <em>Strom Thurmond’s America</em> (New York: Hill and Wang, 2012), 242."
   - "Cohen, <em>Supreme Inequality</em>, 91-123."
-  - "P.R. Lockhart, “65 years after Brown v. Board of Education, school segregation is getting worse,” <a href='https://www.vox.com/'>Vox</a>. May 10, 2019, <a href='https://www.vox.com/identities/2019/5/10/18566052/school-segregation-brown-board-education-report'>https://www.vox.com/identities/2019/5/10/18566052/school-segregation-brown-board-education-report</a>."
+  - "P.R. Lockhart, “65 years after Brown v. Board of Education, school segregation is getting worse,” <em><a href='https://www.vox.com/'>Vox</a></em>, May 10, 2019, <a href='https://www.vox.com/identities/2019/5/10/18566052/school-segregation-brown-board-education-report'>https://www.vox.com/identities/2019/5/10/18566052/school-segregation-brown-board-education-report</a>."
   - "Flynn, Holmberg, Warren, and Wong, <em>The Hidden Rules of Race</em>, 73."
   - "Rothstein, <em>The Color of Law</em>, 237."
   - "Matthew Desmond, <em>Evicted: Poverty and Profit in the American City</em> (New York: Broadway Books, 2016), 44-46, 295-299."
