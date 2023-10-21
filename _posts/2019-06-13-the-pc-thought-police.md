@@ -65,7 +65,7 @@ The reason many are so easily tricked into believing the media has a “liberal�
 
 Liberal bias in the media—insofar as “liberal” refers to ordinary liberal voters or the left—is a myth. The right only wants to make it seem as if the media is much further to the left than it is in reality, so the right can mobilize its base, win elections, and implement an economic agenda that serves the interests of the most powerful sectors of American society.
 
-Snowflakes
+Free Speech
 -------------
 
 According to the right, our freedom of speech is under threat. Liberals and the left are over-sensitive “snowflakes” who get “triggered” when they hear something offensive. In response, they try to force the rest of society to use “politically correct” terminology. If others don’t adopt this terminology, they’re accused of being racists, homophobes, and misogynists. This drama plays out most vividly on college campuses, where the left apparently enjoys total control of the culture. In this environment, left-wing protesters shout down right-wing speakers, supposedly violating the right’s freedom of speech. These tactics also extend to social media, whereby anyone espousing politically incorrect views is “canceled” by technology companies, such as Facebook, Google, and Amazon. According to the right, these anti-free speech tactics amount to a totalitarian form of thought control. The right, however, doesn’t actually care about free speech.

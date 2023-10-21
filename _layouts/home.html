@@ -1,15 +1,25 @@
 <!DOCTYPE HTML>
 <html lang="en" >
     <head>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RE0BZ2XCZP"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-        {%- include head.html -%}
+        gtag('config', 'G-RE0BZ2XCZP');
+      </script>
 
-        {% assign reversed_posts = site.posts | reverse %}
+      {%- include head.html -%}
 
-        {% if reversed_posts %}
-            <link rel="next" href="{{site.baseurl}}{{reversed_posts.first.url}}" />
-        {% endif %}
+      {% assign reversed_posts = site.posts | reverse %}
+
+      {% if reversed_posts %}
+          <link rel="next" href="{{site.baseurl}}{{reversed_posts.first.url}}" />
+      {% endif %}
     </head>
+    
     <body>
         <div class="book">
 
